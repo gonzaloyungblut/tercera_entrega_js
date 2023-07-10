@@ -15,11 +15,10 @@
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
   }
-  h1#msg-final {
+  #msg-final {
     text-align: center;
     color: crimson;
     transition: all .5s ease;
-    transform: scale(0);
     min-height: 50px;
     margin-bottom: 0;
   }
@@ -29,8 +28,7 @@
   #acierto {
     text-align: center;
     min-height: 24px;
-    transform: scale(0);
-  }
+      }
   .acierto {
     animation: zoomInOut 1s ease;
   }
@@ -90,8 +88,8 @@
     left: -205px;
     height: 225px;
   }
-  #image5, #image4, #image3,
-  #image2, #image1, #image0 {
+  #horca, #cabeza, #cabeza_cuerpo,
+  #cabeza_cuerpo_brazo, #cabeza_cuerpo_brazos, #cabeza_cuerpo_brazos_pierna {
     opacity: 0;
     transition: opacity .3s ease;
   }
