@@ -1,21 +1,21 @@
 // ### VARIABLES ###
 
 // Array de palabras
-var palabras = [["gonzalo", "nombre "], ["msdos", "lenguaje de programacion"], ["laurel", "Un árbol"], ["plaza", "Espacio público"], ["rueda", "Gran invento"], ["cereza", "Una fruta"], ["petanca", "Un juego"], ["higuera", "Un árbol"], ["everest", "Un monte"], ["relampago", "Antecede al trueno"], ["jirafa", "Un animal"], ["argentina", "Un país"], ["uruguay", "Un país"], ["ilustracion", "Representación gráfica"], ["excursion", "Actividad en la naturaleza"], ["factura", "De la panadería"], ["pastel", "De la pastelería"], ["escuela", "Lugar para estudiar"], ["carrera", "Competición"], ["mermelada", "Confitura"]];
+palabras = [["gonzalo", "nombre "], ["msdos", "lenguaje de programacion"], ["laurel", "Un árbol"], ["plaza", "Espacio público"], ["rueda", "Gran invento"], ["cereza", "Una fruta"], ["petanca", "Un juego"], ["higuera", "Un árbol"], ["everest", "Un monte"], ["relampago", "Antecede al trueno"], ["jirafa", "Un animal"], ["argentina", "Un país"], ["uruguay", "Un país"], ["ilustracion", "Representación gráfica"], ["excursion", "Actividad en la naturaleza"], ["factura", "De la panadería"], ["pastel", "De la pastelería"], ["escuela", "Lugar para estudiar"], ["carrera", "Competición"], ["mermelada", "Confitura"]];
 // Palabra a averiguar
-var palabra = "";
+palabra = "";
 // Nº aleatorio
-var rand;
+rand;
 // Palabra oculta
-var oculta = [];
+oculta = [];
 // Elemento html de la palabra
-var hueco = document.getElementById("palabra");
+hueco = document.getElementById("palabra");
 // Contador de intentos
-var cont = 6;
+ cont = 6;
 // Botones de letras
-var buttons = document.getElementsByClassName('letra');
+buttons = document.getElementsByClassName('letra');
 // Boton de reset
-var btnInicio = document.getElementById("reset");
+btnInicio = document.getElementById("reset");
 
 
 // ### FUNCIONES ###
