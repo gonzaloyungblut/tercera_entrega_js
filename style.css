@@ -1,8 +1,6 @@
-.body{
-    background-color: rgb(44, 10, 233);
-  }
-  
-  
+body{
+    background-color: rgb(233, 241, 242);
+  }  
   * {
     box-sizing: border-box;
   }
@@ -88,7 +86,7 @@
     left: -205px;
     height: 225px;
   }
-  #horca, #cabeza, #cabeza_cuerpo,
+  #cabeza, #cabeza_cuerpo, #ahorcado,
   #cabeza_cuerpo_brazo, #cabeza_cuerpo_brazos, #cabeza_cuerpo_brazos_pierna {
     opacity: 0;
     transition: opacity .3s ease;

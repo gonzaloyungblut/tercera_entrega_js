@@ -11,7 +11,7 @@ oculta = [];
 // Elemento html de la palabra
 hueco = document.getElementById("palabra");
 // Contador de intentos
- cont = 6;
+cont = 6;
 // Botones de letras
 buttons = document.getElementsByClassName('letra');
 // Boton de reset
@@ -64,7 +64,7 @@ function intento(letra) {
     document.getElementById("intentos").innerHTML = cont;
     document.getElementById("acierto").innerHTML = "Fallo!";
     document.getElementById("acierto").className += "acierto rojo";
-    document.getElementById("image"+cont).className += "fade-in";
+    document.getElementById("horca"+cont).className += "fade-in";
   }
   compruebaFin();
   setTimeout(function () { 
