@@ -64,7 +64,7 @@ function intento(letra) {
     document.getElementById("intentos").innerHTML = cont;
     document.getElementById("acierto").innerHTML = "Fallo!";
     document.getElementById("acierto").className += "acierto rojo";
-    document.getElementById("horca"+cont).className += "fade-in";
+    document.getElementById("image"+cont).className += "fade-in";
   }
   compruebaFin();
   setTimeout(function () { 
